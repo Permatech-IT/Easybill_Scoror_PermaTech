@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+date: Mon, 01 Nov 2021 16:13:26 GMT
+set-cookie: sapi_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsImhhc2giOiIifQ.vfVajXF1NxnxeH5bbD-7E6q7HZKHmeUgmtdSDE6uROE; path=/; secure,sapi_company_account=permatech43; path=/; secure,sapi_language=eng; path=/; secure
+access-control-allow-origin: *
+access-control-allow-headers: Origin, X-Requested-With, Content-Type, Accept
+vary: Accept-Encoding
+content-encoding: gzip
+content-length: 649
+content-type: application/json
+strict-transport-security: max-age=15768000
+server: Scoro
+connection: close
+
+{"status":"OK","statusCode":200,"messages":null,"data":{"token":
+"069ad44090d4bbceed39319e405b228054661597f3befaf21959ba455d371982",
+"device_id_token":"9538ca4cb20f4c6d1a7cf75369f9c0d6a97b3841b5b5afd7b50336c29791e7c06e60d25a76c03110e968342c5cc483785180",
+"settings":{"user_id":1,"master_company_account":"permatech43","first_day_of_week":7,"currency":"INR","numbers_after_comma":"2","default_task_duration":"00:15:00","default_calendar_event_duration":"01:00:00","default_task_priority":"1","default_contact_category":0,"timezone":"Europe\/Berlin","locale_clock":"12","locale_date":"%d-%m-%Y","has_billable_hours":0,"unread_notifications_count":0,"locale_number":{"thousand_separator":",","decimal_separator":"."},"company_accounts":[{"account_id":"permatech43","account_name":"PermaTech"}],"has_task_responsible_user":1,"has_task_to_multiple_users":1,"has_task_start_date":1,"permissions":{"calendar":{"view":1,"create":1},"tasks":{"view":1,"create":1},"projects":{"view":1,"create":1},"contacts":{"view":1,"create":1},"pipeline":{"view":1},"quotes":{"view":1},"orders":{"view":1},"invoices":{"view":1},"expenses":{"view":1},"bills":{"view":1},"purchaseOrders":{"view":1},"budgets":{"view":1},"files":{"view":1},"intra":{"view":1},"reports":{"view":1},"comments":{"view":1},"settings":{"view":1}}}}}

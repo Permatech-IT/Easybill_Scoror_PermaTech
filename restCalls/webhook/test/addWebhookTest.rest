@@ -1,0 +1,25 @@
+
+POST https://permatech43.scoro.com/api/v2/webhooks/subscribe
+content-type: application/json
+
+{
+    "user_token": "069ad44090d4bbceed39319e405b228054661597f3befaf21959ba455d371982",
+    "lang": "eng",
+    "company_account_id": "permatech43",
+    "request": {
+        "module": "tasks",
+        "action": "create",
+        "id": "bhaumik.tandan",
+        "url": "https://03b9-2405-201-6007-5b7c-d169-a8a1-2862-d184.ngrok.io",
+        "relation_type": "assigned_to",
+        "owners": [
+            1
+        ],
+        "actors": [
+            "me"
+        ]
+    }
+}
+
+
+###

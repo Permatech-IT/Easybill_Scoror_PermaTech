@@ -1,0 +1,40 @@
+
+POST https://permatech43.scoro.com/api/v2/contacts
+content-type: application/json
+
+{
+    "lang": "eng",
+    "apiKey": "ScoroAPI_32abdfb0507d7b0",
+    "company_account_id": "permatech43",
+    "request": {}
+}
+
+###
+POST https://permatech43.scoro.com/api/v2/contacts
+content-type: application/json
+
+{
+    "lang": "eng",
+    "apiKey": "ScoroAPI_32abdfb0507d7b0",
+    "company_account_id": "permatech43",
+    "filter": {
+        "name": "C%"
+    }
+}
+
+###
+POST https://permatech43.scoro.com/api/v2/contacts
+content-type: application/json
+
+{
+    "lang": "eng",
+    "apiKey": "ScoroAPI_32abdfb0507d7b0",
+    "company_account_id": "permatech43",
+    "filter": {
+        "means_of_contact": {
+            "email":"%com",
+            "mobile":"+44%"
+        }
+    }
+}
+

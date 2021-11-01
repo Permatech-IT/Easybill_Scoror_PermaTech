@@ -1,0 +1,17 @@
+
+POST https://permatech43.scoro.com/api/v2/userAuth/modify/bhaumik.tandan
+content-type: application/json
+
+{
+    "lang": "eng",
+    "company_account_id": "permatech43",
+    "request": {},
+    "username": "bhaumik.tandan@gmail.com",
+    "password": "Bhaumik1",
+    "device_type": "windows",
+    "device_name": "My pc",
+    "device_id": "1234"
+}
+
+
+###
