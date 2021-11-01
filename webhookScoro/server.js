@@ -13,8 +13,10 @@ const uri = process.env.ATLAS_URI;
 
 
 const mainRouter = require('./routes/main');
+const easyBillRouter = require('./routes/easyBill');
 
 app.use('/', mainRouter);
+app.use('/easyBill', easyBillRouter);
 
 
 app.listen(port, () => {
