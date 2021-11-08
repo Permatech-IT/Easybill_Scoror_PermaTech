@@ -7,6 +7,7 @@ POST https://api.easybill.de/rest/v1/customers
 Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
 
 {
+  "id":1201510932,
   "acquire_options": null,
   "bank_account": null,
   "bank_account_owner": null,
@@ -80,4 +81,13 @@ Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2z
   "documentPdfType": "default",
   "buyer_reference": "string",
   "foreign_supplier_number": "string"
+}
+
+###
+
+PUT https://api.easybill.de/rest/v1/customers/1201510832
+Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
+
+{
+  "id":4
 }

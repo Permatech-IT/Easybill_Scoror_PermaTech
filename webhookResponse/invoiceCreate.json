@@ -1,0 +1,72 @@
+{
+    "entityId":117,
+    "entityType":"invoice",
+    "entity":{
+       "payment_type":"banktransfer",
+       "fine":"3.000000",
+       "quote_id":null,
+       "order_id":null,
+       "prepayment_id":null,
+       "credited_invoices":null,
+       "prepayment_sum":"0.0000",
+       "real_estate_id":0,
+       "reference_no":"",
+       "company_name":"Concept LLC",
+       "person_name":"Daniel Webb",
+       "company_address":{
+          "country":"",
+          "county":"",
+          "municipality":"",
+          "city":"Worcester",
+          "street":"4 Cirencester Pl",
+          "zipcode":"WR4 9UX",
+          "full_address":"4 Cirencester Pl, WR4 9UX Worcester"
+       },
+       "project_name":"Captive Inc campaign analysis",
+       "owner_email":"bhaumik.tandan@gmail.com",
+       "vat_code":"2",
+       "currency_rate":1,
+       "paid_sum":0,
+       "receivable_sum":7562.12,
+       "generation_type":"manual",
+       "scheduled_invoice_id":0,
+       "id":117,
+       "no":"100",
+       "discount":"2.000000",
+       "discount2":null,
+       "discount3":null,
+       "sum":"7202.02",
+       "vat_sum":"360.10",
+       "vat":"5.000",
+       "vat_code_id":"2",
+       "company_id":13,
+       "person_id":3,
+       "company_address_id":12,
+       "project_id":1,
+       "currency":"INR",
+       "owner_id":1,
+       "date":"2021-11-03",
+       "deadline":"2021-11-13",
+       "status":"unpaid",
+       "description":"se",
+       "account_id":"permatech43",
+       "is_sent":0,
+       "lines":[
+          [
+             null
+          ],
+          [
+             null
+          ],
+          [
+             null
+          ]
+       ],
+       "modified_date":"2021-11-03T02:26:05+01:00",
+       "created_date":"2021-11-03T02:26:05+01:00",
+       "custom_fields":null,
+       "is_deleted":0,
+       "deleted_date":null
+    }
+ }
+ 

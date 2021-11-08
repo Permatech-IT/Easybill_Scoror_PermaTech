@@ -1,0 +1,108 @@
+GET https://api.easybill.de/rest/v1/documents
+Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
+
+###
+POST https://api.easybill.de/rest/v1/documents
+Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
+
+{
+  "bank_debit_form": null,
+  "calc_vat_from": 0,
+  "cash_allowance": null,
+  "cash_allowance_days": null,
+  "cash_allowance_text": null,
+  "contact_id": null,
+  "contact_label": "",
+  "contact_text": "",
+  "currency": "EUR",
+  "customer_id": 1201510832,
+  "discount": null,
+  "discount_type": null,
+  "document_date": "2022-02-07",
+  "external_id": null,
+  "replica_url": null,
+  "grace_period": null,
+  "due_in_days": null,
+  "is_archive": false,
+  "is_replica": false,
+  "is_oss": false,
+  "coldstorage_due_date": "2022-02-07",
+  "items": [
+    {
+      "number": null,
+      "description": null,
+      "document_note": "Test Note",
+      "quantity": 1,
+      "quantity_str": null,
+      "unit": null,
+      "type": "POSITION",
+      "position": null,
+      "single_price_net": null,
+      "vat_percent": 0,
+      "discount": null,
+      "discount_type": null,
+      "position_id": null,
+      "booking_account": null,
+      "export_cost_1": null,
+      "export_cost_2": null,
+      "cost_price_net": null,
+      "itemType": "UNDEFINED"
+    }
+  ],
+  "login_id": null,
+  "number": null,
+  "order_number": "string",
+  "buyer_reference": "string",
+  "pdf_template": null,
+  "project_id": null,
+  "recurring_options": {
+    "next_date": "2020-02-01",
+    "frequency": "MONTHLY",
+    "frequency_special": null,
+    "interval": 1,
+    "end_date_or_count": null,
+    "status": "WAITING",
+    "as_draft": false,
+    "is_notify": false,
+    "send_as": null,
+    "is_sign": false,
+    "is_paid": false,
+    "paid_date_option": "created_date",
+    "is_sepa": false,
+    "sepa_local_instrument": null,
+    "sepa_sequence_type": null,
+    "sepa_reference": null,
+    "sepa_remittance_information": null,
+    "target_type": "INVOICE"
+  },
+  "ref_id": null,
+  "service_date": {
+    "type": "DEFAULT",
+    "date": "2022-02-01",
+    "date_from": null,
+    "date_to": null,
+    "text": null
+  },
+  "shipping_country": null,
+  "status": null,
+  "text": "Vielen Dank für Ihren Auftrag!\n\nBitte begleichen Sie den offenen Betrag bis zum %DOKUMENT.DATUM-FAELLIG%.\n\nMit freundlichen Grüßen\n\n%FIRMA.FIRMA%\n",
+  "text_prefix": "%KUNDE.ANREDE%,\nnachfolgend berechnen wir Ihnen wie vorab besprochen:\n",
+  "text_tax": "string",
+  "title": "Invoice for Order #001",
+  "type": "INVOICE",
+  "use_shipping_address": false,
+  "vat_country": null,
+  "fulfillment_country": null,
+  "vat_option": null
+}
+
+### from scoro first we also have to send the data of the customer
+POST https://api.easybill.de/rest/v1/documents
+Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
+
+{
+  "customer_id":1201510832,
+  "document_date":"2021-11-03",
+  "coldstorage_due_date":"2021-11-13",
+  "items":[{"cost_price_net":7562.12}]
+}

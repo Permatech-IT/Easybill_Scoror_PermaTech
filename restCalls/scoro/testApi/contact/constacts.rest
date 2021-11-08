@@ -1,0 +1,32 @@
+POST https://permatech43.scoro.com/api/v2/contacts
+content-type: application/json
+
+{
+    "lang": "eng",
+    "apiKey": "ScoroAPI_32abdfb0507d7b0",
+    "company_account_id": "permatech43",
+    "request": {}
+}
+
+
+###  differnce between id_code and contact_id check 
+### all  id_code are null
+### position is position in the company
+### profile id
+### why is deleted
+### tags
+### category name/id
+### deleted objects also come
+
+
+### what is basic data
+POST https://permatech43.scoro.com/api/v2/contacts/list
+content-type: application/json
+
+{
+    "lang": "eng",
+    "apiKey": "ScoroAPI_32abdfb0507d7b0",
+    "company_account_id": "permatech43",
+    "basic_data": "1",
+    "request": {}
+}
