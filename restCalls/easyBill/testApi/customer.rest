@@ -1,13 +1,11 @@
-
 GET https://api.easybill.de/rest/v1/customers
-Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
+Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
 ###
 
 POST https://api.easybill.de/rest/v1/customers
-Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
+Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
 
 {
-  "id":1201510932,
   "acquire_options": null,
   "bank_account": null,
   "bank_account_owner": null,
@@ -22,7 +20,7 @@ Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2z
   "cash_discount_type": null,
   "city": "Kaarst",
   "state": "NRW",
-  "company_name": "easybill GmbH",
+  "company_name": "easybiadll GmbH",
   "country": "DE",
   "delivery_title": "Dr.",
   "delivery_city": null,
@@ -49,13 +47,13 @@ Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2z
   "info_2": null,
   "internet": "https://www.easybill.de",
   "last_name": "Mustermann",
-  "login_id": 0,
+  "login_id": 1,
   "mobile": null,
   "note": null,
   "number": "string",
   "payment_options": null,
   "personal": false,
-  "phone_1": "+49 2154 89701 20",
+  "phone_1": "+49 2154 897021 20",
   "phone_2": null,
   "postbox": null,
   "postbox_city": null,
@@ -63,7 +61,7 @@ Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2z
   "postbox_country": null,
   "postbox_zip_code": null,
   "sale_price_level": null,
-  "salutation": 0,
+  "salutation": 1,
   "sepa_agreement": null,
   "sepa_agreement_date": null,
   "sepa_mandate_reference": null,
@@ -86,8 +84,15 @@ Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2z
 ###
 
 PUT https://api.easybill.de/rest/v1/customers/1201510832
-Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
+Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
+{
+  "id":4
+}
 
+###
+
+DELETE  https://api.easybill.de/rest/v1/customers/1201510832
+Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
 {
   "id":4
 }

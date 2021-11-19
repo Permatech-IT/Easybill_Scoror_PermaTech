@@ -1,0 +1,9 @@
+POST https://permatech43.scoro.com/api/v2/customFields/list
+content-type: application/json
+
+{
+    "lang": "eng",
+    "apiKey": "ScoroAPI_32abdfb0507d7b0",
+    "company_account_id": "permatech43",
+    "request": {}
+}

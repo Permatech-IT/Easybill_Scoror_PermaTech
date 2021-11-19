@@ -1,21 +1,21 @@
 GET https://api.easybill.de/rest/v1/documents
-Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
-
+Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
 ###
+
 POST https://api.easybill.de/rest/v1/documents
-Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
+Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
 
 {
+
+  "customer_id":1214715207,
   "bank_debit_form": null,
   "calc_vat_from": 0,
   "cash_allowance": null,
   "cash_allowance_days": null,
   "cash_allowance_text": null,
-  "contact_id": null,
   "contact_label": "",
   "contact_text": "",
   "currency": "EUR",
-  "customer_id": 1201510832,
   "discount": null,
   "discount_type": null,
   "document_date": "2022-02-07",
@@ -50,7 +50,7 @@ Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2z
     }
   ],
   "login_id": null,
-  "number": null,
+  "number": 3232,
   "order_number": "string",
   "buyer_reference": "string",
   "pdf_template": null,
@@ -98,7 +98,7 @@ Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2z
 
 ### from scoro first we also have to send the data of the customer
 POST https://api.easybill.de/rest/v1/documents
-Authorization: Bearer kBBUn0ek3BAy149L1LAhyhdyQPdDPxedlPc8XJO147hYx3FYuXLCv71S2zhxo3BB
+Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
 
 {
   "customer_id":1201510832,
