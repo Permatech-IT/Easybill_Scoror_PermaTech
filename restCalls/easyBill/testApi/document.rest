@@ -1,13 +1,12 @@
 GET https://api.easybill.de/rest/v1/documents
-Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
-###
+Authorization: Bearer MdjDHGpHv4qx10RTBSRJNyratRIAKkHoI5zYGWNRvZcLSb4LN984Lwk7HNc3TLiE
 
 POST https://api.easybill.de/rest/v1/documents
-Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
+Authorization: Bearer MdjDHGpHv4qx10RTBSRJNyratRIAKkHoI5zYGWNRvZcLSb4LN984Lwk7HNc3TLiE
 
 {
 
-  "customer_id":1214715207,
+  "customer_id":1220312187,
   "bank_debit_form": null,
   "calc_vat_from": 0,
   "cash_allowance": null,

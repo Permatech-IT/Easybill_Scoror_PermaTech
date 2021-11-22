@@ -1,9 +1,9 @@
 GET https://api.easybill.de/rest/v1/customers
-Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
+Authorization: Bearer MdjDHGpHv4qx10RTBSRJNyratRIAKkHoI5zYGWNRvZcLSb4LN984Lwk7HNc3TLiE
 ###
 
 POST https://api.easybill.de/rest/v1/customers
-Authorization: Bearer ERqN6t9TKkhErANcOdpBj7hYmrgzVdiE7xBqQRQQVN3df1ZhNcmWbQ9gheNSNq4o
+Authorization: Bearer MdjDHGpHv4qx10RTBSRJNyratRIAKkHoI5zYGWNRvZcLSb4LN984Lwk7HNc3TLiE
 
 {
   "acquire_options": null,

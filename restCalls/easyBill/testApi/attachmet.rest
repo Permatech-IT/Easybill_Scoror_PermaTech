@@ -1,0 +1,3 @@
+GET https://api.easybill.de/rest/v1/post-boxes
+Authorization: Bearer MdjDHGpHv4qx10RTBSRJNyratRIAKkHoI5zYGWNRvZcLSb4LN984Lwk7HNc3TLiE
+###
